@@ -25,3 +25,5 @@ Ship.inherits(MovingObject);
 
 function Asteroid () {}
 Asteroid.inherits(MovingObject);
+
+Asteroid.prototype.test = "Asteroid Attr";
